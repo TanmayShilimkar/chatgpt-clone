@@ -15,7 +15,7 @@ function Sidebar({ onNewChat }: HeaderProps) {
 
   return (
     <>
-      <aside className={`${isActive === true ? "w-64" : "w-15 pl-0"} bg-neutral-50 dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 flex flex-col duration-200 fixed h-screen`}>
+      <aside className={`${isActive === true ? "w-64" : "w-15 pl-0"} bg-neutral-50 dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 flex flex-col duration-200 sticky`}>
         <div className="p-4 flex justify-between items-center dark:border-gray-700">
           <img className={`${isActive === false ? "hidden" : ""} w-10 hover:bg-gray-300 rounded-xl p-2 cursor-pointer dark:invert dark:hover:bg-gray-700`} src={Logo} alt="ChatGPT Clone"/>
           <button onClick={closeSidebar} className="p-2 hover:bg-gray-300 rounded-lg cursor-pointer" title={`${isActive === true ? "Close Sidebar" : "Open Sidebar  "}`}>
