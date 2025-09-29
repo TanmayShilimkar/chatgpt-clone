@@ -1,8 +1,11 @@
-🤖 ChatGPT Clone (React + Vite + TypeScript + Groq AI)
-A ChatGPT-style AI assistant built with React, TypeScript, Vite, Tailwind CSS, and Groq AI API.
+##🤖 ChatGPT Clone (React + Vite + TypeScript + Groq AI)
+
+A ChatGPT-style AI assistant built with **React, TypeScript, Vite, Tailwind CSS, and Groq AI API**.
 This project allows users to chat with an AI model (llama-3.3-70b-versatile) and supports light/dark mode and new chat functionality.
 
-🚀 Features
+ --
+ 
+##🚀 Features
 
 ⚡ React + Vite + TypeScript for fast development
 
